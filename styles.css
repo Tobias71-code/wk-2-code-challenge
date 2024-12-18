@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#item-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-item-btn {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 4%;
+}
+
+#clear-list-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+li.purchased {
+    text-decoration: line-through;
+    background-color: #e0ffe0;
+}
+
+li button {
+    background-color: transparent;
+    border: none;
+    color: #f44336;
+    cursor: pointer;
+}
+
+.purchase-btn {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+
+.purchase-btn:hover {
+    background-color: #45a049;
+}
+
+button.save-btn {
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 10px;
+}
+
+button.cancel-btn {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+}
